@@ -1,0 +1,33 @@
+canonical_identifier: bkk:krp/KR3ep059/jc/v1
+canonical_location: https://kanripo.org/bkk/KR3ep059/jc/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 王仲奇醫案
+  identifiers:
+    krp: KR3ep059
+  tags:
+    kr-categories: KR3ep
+  source:
+    repository: tls-texts
+    path: data/tls/KR3ep059.xml
+  edition:
+    short: jc
+assets:
+  parts:
+  - {seq: 0, filename: KR3ep059_000-jc.yaml, hash: 'sha256:adf500e220891d61827e11950d1401bff40df1fe73369f606d0b3eb897638a32'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3ep059_000-jc.markers.yaml, hash: 'sha256:efa8c08e5a369f83453b0c7ed13d55f6f862965969c53c024023fb1c12e2a818'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3ep059_jc_000-d2.h1s1
+    span:
+    - body
+    - 0
+    - 16568
+  label: 正文
+  type: section
+  level: 1
+hash: sha256:ca4786e138526d5e1bcf136336959d4b2f47bb17138e920b6e1432ead5eefcac
